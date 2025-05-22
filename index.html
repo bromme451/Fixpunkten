@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produktkatalog | Mättillbehör</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .product-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .product-card h3 {
+      margin-top: 0.8rem;
+      color: #222;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 0.8rem;
+      background-color: #0066cc;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Produktkatalog – Mättillbehör</h1>
+
+  <div class="grid">
+
+    <div class="product-card">
+      <img src="images/miniprisma-med-regnskydd.jpg" alt="Miniprisma med regnskydd" />
+      <h3>Miniprisma med regnskydd</h3>
+      <p>Robust prisma med integrerat regnskydd för utomhusmätningar.</p>
+      <p><strong>Pris:</strong> 995 kr</p>
+      <a href="#" class="cta">Läs mer</a>
+    </div>
+
+    <div class="product-card">
+      <img src="images/digitalt-vattenpass.jpg" alt="Digitalt vattenpass" />
+      <h3>Digitalt vattenpass</h3>
+      <p>Exakt mätning med digital display och ljudsignal.</p>
+      <p><strong>Pris:</strong> 849 kr</p>
+      <a href="#" class="cta">Läs mer</a>
+    </div>
+
+    <div class="product-card">
+      <img src="images/laser-avstandsmatare.jpg" alt="Laser avståndsmätare" />
+      <h3>Laser avståndsmätare</h3>
+      <p>Snabb och exakt mätning upp till 60 meter.</p>
+      <p><strong>Pris:</strong> 1 495 kr</p>
+      <a href="#" class="cta">Läs mer</a>
+    </div>
+
+  </div>
+</body>
+</html>
